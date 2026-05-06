@@ -114,7 +114,7 @@ python threshold_simulation.py
 ## File Structure
 
 ```text
-healthcare-threshold-simulation/
+healthcare-treatment-threshold-simulation/
 ├── threshold_simulation.py
 ├── requirements.txt
 ├── .gitignore
