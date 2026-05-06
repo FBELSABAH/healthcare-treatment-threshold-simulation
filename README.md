@@ -4,7 +4,7 @@
 
 This project builds a simplified healthcare decision model in Python to study how treatment eligibility thresholds affect system outcomes. A synthetic population of 10,000 patients is assigned a probability of benefiting from treatment, and the model tests how different threshold rules and screening or verification costs change treatment decisions and total value.
 
-The project is intentionally simple and beginner-friendly, but it still demonstrates useful quantitative skills for a research setting: probability-based modeling, numerical simulation, parameter sweeps, optimization, figure creation, and structured written interpretation.
+The project demonstrates quantitative skills relevant to research settings, including probability-based modeling, numerical simulation, parameter sweeps, optimization, figure creation, and structured written interpretation.
 
 ## Why Threshold-Based Healthcare Decisions Matter
 
@@ -98,16 +98,8 @@ It is especially relevant to a Student Research Assistant role because it shows 
 
 ## How to Run
 
-From the project folder, run:
-
 ```bash
 python threshold_simulation.py
-```
-
-If your system uses `python3` instead of `python`, run:
-
-```bash
-python3 threshold_simulation.py
 ```
 
 ## How to Reproduce Results
