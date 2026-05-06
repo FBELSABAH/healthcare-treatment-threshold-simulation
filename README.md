@@ -99,7 +99,7 @@ It is especially relevant to a Student Research Assistant role because it shows 
 ## How to Run
 
 ```bash
-python threshold_simulation.py
+python3 threshold_simulation.py
 ```
 
 ## How to Reproduce Results
