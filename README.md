@@ -4,7 +4,7 @@
 
 This project builds a simplified healthcare decision model in Python to study how treatment eligibility thresholds affect system outcomes. A synthetic population of 10,000 patients is assigned a probability of benefiting from treatment, and the model tests how different threshold rules and screening or verification costs change treatment decisions and total value.
 
-The project demonstrates quantitative skills relevant to research settings, including probability-based modeling, numerical simulation, parameter sweeps, optimization, figure creation, and structured written interpretation.
+Across 95 scenarios, the best tested threshold fell from 0.20 to 0.05 as the screening-cost parameter rose from 0.01 to 0.30. This pattern follows from the model’s threshold-dependent cost formula. [View the threshold plot](figures/optimal_threshold_by_screening_cost.png) or [inspect all 95 results](results.csv).
 
 ## Why Threshold-Based Healthcare Decisions Matter
 
@@ -49,10 +49,10 @@ The script:
 
 Running the script creates:
 
-- `results.csv`
-- `figures/net_value_by_threshold.png`
-- `figures/patients_treated_by_threshold.png`
-- `figures/optimal_threshold_by_screening_cost.png`
+- [results.csv](results.csv)
+- [net_value_by_threshold.png](figures/net_value_by_threshold.png)
+- [patients_treated_by_threshold.png](figures/patients_treated_by_threshold.png)
+- [optimal_threshold_by_screening_cost.png](figures/optimal_threshold_by_screening_cost.png)
 
 The script also prints a short terminal summary showing the best threshold, highest net value, and number of patients treated for each screening cost.
 
